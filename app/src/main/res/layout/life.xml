@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="6dp"
+    android:background="@drawable/shape"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="生活建议"
+        android:textColor="#fff"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/loadinglife"
+        android:text="加载中...."
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+<LinearLayout
+    android:id="@+id/lifeLayout"
+    android:visibility="gone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/lifecmf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:padding="10dp"
+        android:textSize="16dp"/>
+
+    <TextView
+        android:id="@+id/lifCw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:padding="10dp"
+        android:textSize="16dp"/>
+
+    <TextView
+        android:id="@+id/lifeSport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:padding="10dp"
+        android:textSize="16dp"/>
+
+    <TextView
+        android:id="@+id/lifeTrav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:padding="10dp"
+        android:textSize="16dp"/>
+</LinearLayout>
+</LinearLayout>

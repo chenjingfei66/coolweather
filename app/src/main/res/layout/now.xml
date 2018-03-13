@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+   >
+
+    <TextView
+        android:id="@+id/loadingNow"
+        android:text="加载中...."
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:id="@+id/nowLayout"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+       >
+    <TextView
+        android:id="@+id/nowLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:textColor="#fff"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:text="guilin"
+        android:layout_marginBottom="20dp"/>
+
+        <ImageView
+            android:id="@+id/dingwei"
+            android:background="@drawable/dingweiselector"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_toRightOf="@+id/nowLocation"
+            android:layout_alignBaseline="@+id/nowLocation"
+            android:layout_marginLeft="7dp"
+
+            />
+
+    <TextView
+        android:id="@+id/nowWendu"
+        android:textColor="#fff"
+        android:textSize="76dp"
+        android:text="8℃"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="86dp"
+        android:layout_marginRight="15dp"/>
+
+        <ImageView
+            android:id="@+id/iamgeviewtianqi"
+            android:layout_width="66dp"
+            android:layout_height="66dp"
+            android:layout_alignBottom="@+id/nowTianqi"
+            android:layout_alignEnd="@+id/nowWendu"
+            android:layout_alignRight="@+id/nowWendu"
+            android:src="@mipmap/im100"
+             />
+
+
+        <TextView
+            android:id="@+id/nowTianqi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/nowLocation"
+            android:layout_alignBottom="@+id/nowLocation"
+            android:layout_marginEnd="17dp"
+            android:layout_marginRight="17dp"
+            android:layout_toLeftOf="@+id/iamgeviewtianqi"
+            android:layout_toStartOf="@+id/iamgeviewtianqi"
+            android:textColor="#fff"
+            android:textSize="30dp" />
+
+
+    </RelativeLayout>
+</RelativeLayout>

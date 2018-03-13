@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#1c1c1c"
+    >
+
+    <TextView
+        android:textColor="#fff"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:id="@+id/notification_location"
+        android:text="桂林"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:textColor="#fff"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:id="@+id/notification_wendu"
+        android:text="22℃"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:textColor="#fff"
+        android:textSize="30dp"
+        android:id="@+id/notification_tianqi"
+        android:text="晴"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

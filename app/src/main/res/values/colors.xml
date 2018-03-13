@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--colorPrimary设置的是标题栏的颜色-->
+    <color name="colorPrimary">#FF4081</color>
+    <!-- 如果使用了状态栏沉浸，colorPrimaryDark设置颜色就不会起作用（colorPrimaryDark设置的是状态栏的颜色） -->
+    <color name="colorPrimaryDark">#FF4081</color>
+    <color name="colorAccent">#FF4081</color>
+</resources>
